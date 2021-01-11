@@ -9,10 +9,10 @@ import pymongo
 from datetime import datetime
 import time
 
-api_key = "Wfq88TxB5M4r8gJacqbiVRNnm" # <---- Add your API Key
-api_secret = "UEi8MII21403fOKlwwpy6qnIqXyhox5Moa9TxmvPGd8GZ8NrlI" # <---- Add your API Secret
-access_token = "316255829-9qksCDlOrmWEx59aD5RjzqDSR9BWg4B3TIINByFA" # <---- Add your access token
-access_token_secret = "VvDFzPGMPaAcHdUxOeODtr9XYn23amQtRRkQdNNHVilfv" # <---- Add your access token secret
+api_key = "**************************" # <---- Add your API Key
+api_secret = "***********************************" # <---- Add your API Secret
+access_token = "****************************************" # <---- Add your access token
+access_token_secret = "******************************************" # <---- Add your access token secret
 
 auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_token_secret)
